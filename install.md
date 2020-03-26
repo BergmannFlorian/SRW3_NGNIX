@@ -1,10 +1,24 @@
 # VM config
+- 1 proco, 2 coeurs
+- 4gb de RAM
+- disque 50gb
+- carte réseau: bridged
 
+OS: debian 10  
+default install with general system utilities
 
 # Dépendances
 
-vim
-sudo
+vim  
+sudo  
+openssh-server
+
+# Firewall
+
+    # apt install ufw
+    # ufw allow 22
+    # ufw allow 80
+    # ufw allow 443
 
 # SQL
 
